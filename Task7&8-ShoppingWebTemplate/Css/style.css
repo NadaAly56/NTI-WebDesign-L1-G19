@@ -1,0 +1,100 @@
+a {
+    text-decoration: none;
+    color: #333;
+}
+#search .container {
+    height: auto;
+}
+.custom-container {
+    width: 60%;
+    margin: auto;
+}
+.orange {
+    color: rgb(238, 155, 0);
+}
+.green {
+    color: rgb(52, 180, 101);
+    font-size: 13px;
+}
+#search a {
+    color: rgb(238, 155, 0);
+}
+.icon {
+    background-color: #e6e6e6;
+}
+input[type=search], select {
+    border: 1px solid #e6e6e6;
+}
+
+ul {
+    /* list-unstyled */
+    list-style: none;
+}
+nav img {
+    width: 60px !important;
+    height: 60px;
+}
+.bg-white div {
+    background-color: #fff;
+}
+.star {
+    color: rgb(238, 155, 0);
+    font-size: 10px;
+}
+.icon-big {
+    font-size: 40px;
+    color: rgb(238, 155, 0);
+}
+#second p {
+    font-size: 13px !important;
+    font-weight: 500;
+}
+.dark-gray {
+    /* text-muted */
+    color: #474747;
+    font-weight: 500;
+    font-size: 15px !important;
+}
+.dark-gray-small {
+    color: #474747;
+    font-weight: 500;
+    font-size: 13px !important;
+}
+.rounded-white {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.bg-orange {
+    background-color: rgb(238, 155, 0);
+}
+.sale {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(238, 155, 0) !important;
+    color: #fff;
+    top: 2%;
+    left: 75%;
+    line-height: 3;
+}
+.accordion-button.sub::after {
+    display: none;
+  }
+  .accordion-button.sub:not(.collapsed)::after {
+    display: none;
+  }
+
+.accordion-button.main::after {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M8 0a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2H9v6a1 1 0 1 1-2 0V9H1a1 1 0 0 1 0-2h6V1a1 1 0 0 1 1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+    transform: scale(.7) !important;
+  }
+  .accordion-button.main:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M0 8a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H1a1 1 0 0 1-1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+  }
+@media (min-width: 0) and (max-width: 1600px) {
+    .custom-container {
+        width: 90%;
+    }
+}

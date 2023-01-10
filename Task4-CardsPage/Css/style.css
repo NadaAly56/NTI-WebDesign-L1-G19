@@ -1,0 +1,126 @@
+/* Reset */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+ }
+
+
+ /* Global Sttyle */
+ .pointer {
+    cursor: pointer;
+ }
+ body {
+    background-color: rgb(238, 235, 235);
+ }
+ .container {
+    width: 90%;
+    margin: auto;
+ }
+
+h3 {
+    margin-top: 10%;
+    color: rgb(2, 185, 218);
+    margin-top:15%;
+}
+hr {
+    border: 3px solid #333;
+    margin: 4% 0;
+    width: 12%;
+}
+.p-grey {
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 2%;
+    line-height: 1.5;
+}
+img {
+    width: 100%;
+}
+.icon {
+    font-size: 35px;
+    color: #333;
+    
+}
+.d-inline-block {
+    display: inline-block;
+}
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+.upper {
+    text-transform: uppercase;
+    
+}
+i {
+    display: inline-block;
+    cursor: pointer;
+}
+ /* Custom Style */
+
+.card {
+    margin: 2%;
+    width: 28%;
+    background-color: #fff;
+    display: inline-block;
+}
+.card-icons {
+    padding: 20px; 
+       
+}
+i {
+    margin-right: 2%;
+    margin-left: 4%;
+}
+.icon-margin {
+    margin: 3%;
+    width:25%;
+}
+.card-img {
+
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+.img {
+    position: relative;
+    height: 100%;
+}
+.card-img-overlay {
+    background-color: #00000098;
+    position: absolute;
+    top:0;
+   width: 100%;
+   height: 100%;
+   visibility: hidden;
+   font-size: 30px;
+   color: #fff;
+   padding: 60% 0 0 20%;
+   
+}
+.card:hover .card-img-overlay {
+    visibility: visible;
+}
+
+.card-img-cycle {
+    width: 100px;
+    height:100px;
+    position: absolute;
+    top: 80%;
+    right: 2%;
+    border: 5px solid #fff;
+    border-radius: 50%;
+}
+.card-par {
+    padding: 0 20px 20px 20px;
+}
+.p-hover {
+    cursor: pointer;
+}
+.p-hover:hover {
+    color: rgb(2, 185, 218);
+}

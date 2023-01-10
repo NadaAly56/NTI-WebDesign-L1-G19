@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        label,input,textarea {
+            margin: 5px;
+        }
+        form {
+            
+            border: 1px solid #000;
+            width: 450px;
+        }
+        div {
+            border: 1px solid #000;
+            margin: 10px;
+            padding: 3px;
+        }
+    </style>
+</head>
+<body>
+     <form method="post"  action="Tasks.html" target="_blank"> <span style="text-align: center; font-size: large;">My Form</span>
+        <br><br>
+        <div>
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="firstName" required minlength="3" autofocus> <br>
+        </div>
+        
+        <div>
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="lastName" required minlength="4" autofocus> <br>
+        </div>
+        
+        <div>
+            <label for="">Age</label>
+            <input type="number" name="age"> <br>
+        </div>
+        
+        <div>
+            <input type="text" name="familyName" placeholder="Enter your family namae"> <br>
+        </div>
+        
+        <div>
+            <label for="">Shipping Area</label>
+        <input type="text" name="shipping" value="Cairo" readonly> <br>
+        </div>
+        
+        <div>
+            <input type="radio" name="gender" value="male"> <label>male</label>
+        <input type="radio" name="gender" value="female"> <label>female</label> <br>
+        </div>
+        
+        
+       <div> <select>
+            <option selectd>Select your course</option>
+            <option name="html" >HTML</option>
+            <option name="css">CSS</option>
+            <option name="javaScript">JavaScript</option>
+        </select><br> </div>
+
+        <div><label>Upload</label>
+            <input type="file" multiple name="file"> <br></div>
+
+            <div><label>email</label>
+            <input type="email" name="email"> <br></div>
+            
+           <div> <label>password</label>
+            <input type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" name="password"> <br> </div>
+
+          <div>  <label>leave us a message</label>
+            <textarea  rows="10" cols="50" name="mesge"></textarea><br></div>
+
+           <div> <label>Date</label>
+            <input type="datetime-local" name="date" id="" name="date"><br> </div>
+
+            <label>Pick a color</label>
+            <input type="color" name="color"> <br>
+
+            <label>choose price</label>
+            <input type="range" name="priceRange" min="10" max="1000" step="50">
+            <button>Submit</button>
+            <button type="reset">Reset</button>
+
+    </form>
+</body>
+</html>

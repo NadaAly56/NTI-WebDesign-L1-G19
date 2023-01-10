@@ -1,0 +1,224 @@
+
+/* labtop screen */
+
+@media (min-width: 1001px) and (max-width: 1500px) {
+    .container {
+        width: 85%;
+    }
+    .card-left-big {
+        flex-wrap: nowrap;
+    }
+}
+
+/* tablet screen */
+
+@media (min-width: 768px) and (max-width: 1000px) {
+    .container {
+        width: 90%;
+    }
+    .first {
+        height: 2600px;
+    }
+    li a i {
+        margin-left: 10px;
+        font-size: 25px;
+        font-weight: 100;
+    }
+    li a {
+        font-size: 17px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    .nav {
+        height: 35px;
+    }
+    #first {
+        flex-wrap: wrap;
+    }
+    #first .aside-right {
+        height: 1200px;
+    }
+    .aside-left {
+        width: 100%;
+        height: 1350px;
+    }
+    .aside-right {
+        width: 70%;
+        margin: auto;
+    }
+    #second .card {
+        flex-wrap: wrap;
+        height: 450px;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+    .card-custom {
+        width: 48%;
+        height: 100px;
+    }
+    .arrow-top {
+        left: 90%;
+    }
+    #third {
+        height: 2400px;
+    }
+    .third {
+        flex-wrap: wrap;
+        align-content: flex-start;
+        height: 2250px;
+    }
+    .third .aside-left {
+        height: 900px;
+    }
+    .third .aside-right {
+        width: 100%;
+        margin: 0;
+        height: 1300px ;
+    }
+    .third .aside-right .card {
+        height: 1225px;
+    }
+    button {
+        width: 17%;
+    }
+}
+
+/* mobile screen */
+
+@media (min-width: 300px) and (max-width: 767px) {
+    .first {
+        height: 3850px;
+    }
+    .container {
+        width: 95%;
+    }
+    .nav-par .par:nth-child(2), .nav-par .par:nth-child(3) {
+        display: none;
+    }
+    .nav {
+        height: 40px;
+    }
+    li a {
+        font-size: 13px;
+        font-weight: 700;
+    }
+    li a i {
+        margin-bottom: 25px;
+        font-size: 25px;
+    }
+    .par {
+        width: 100%;
+    }
+    .cyrcle {
+        margin: 0 2%;
+    }
+    .par-p {
+        width: 100%;
+        text-align: center;
+    }
+    #first {
+        flex-wrap: wrap;
+    }
+    .aside-left {
+        width: 100%;
+        height: 2450px;
+    }
+    .aside-left-part {
+        height: 900px;
+    }
+    .aside-right {
+        width: 70%;
+        height: 1240px;
+        margin: auto;
+    }
+    .aside-nav {
+        flex-wrap: wrap;
+        height: 60px;
+    }
+    .aside-nav h5 {
+        width: 100%;
+        
+    }
+    .aside-nav ul {
+        width: 100%;
+        height: 40px;
+        align-items: center;
+    }
+    .aside-nav a {
+        font-size: 11px;
+    }
+    .card-left {
+        width: 100%;
+        height: 400px;
+    }
+    .card-right {
+        width: 100%;
+    }
+    .card {
+        height: 815px;
+    }
+    .cards {
+        height: 1280px;
+    }
+    .card-right-m {
+        height: 200px;
+    }
+    .card-m {
+        height: 420px;
+    }
+    #second .card {
+        flex-wrap: wrap;
+        height: 650px;
+    }
+    .card-custom {
+        width: 100%;
+        height: 200px;
+    }
+    .arrow-top {
+        left: 80%;
+    }
+    #third {
+        height: 2650px;
+    }
+    .third {
+        flex-wrap: wrap;
+        align-content: flex-start;
+        height: 2500px;
+    }
+    .third .card img {
+        height: 50%;
+        width: 100%; 
+    }
+    .third .aside-left {
+        height: 1500px;
+    }
+    .third .aside-left .card {
+        height: 1400px;
+        justify-content: space-around;
+    }
+    .card-left-big {
+        justify-content: space-around;
+        align-content: stretch;
+    }
+    .third .card-right-p {
+        width: 95%;
+    }
+    .third .aside-right {
+        width: 100%;
+        margin: 0;
+        height: 1000px ;
+    }
+    .third .aside-right .card {
+        height: 830px;
+    }
+    button {
+        width: 35%;
+    }
+    footer .container {
+        flex-wrap: wrap;
+    }
+    .fot {
+        width: 100%;
+    }
+}
